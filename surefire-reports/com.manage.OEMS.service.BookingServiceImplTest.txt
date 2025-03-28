@@ -1,0 +1,16 @@
+-------------------------------------------------------------------------------
+Test set: com.manage.OEMS.service.BookingServiceImplTest
+-------------------------------------------------------------------------------
+Tests run: 13, Failures: 3, Errors: 0, Skipped: 0, Time elapsed: 2.396 s <<< FAILURE! - in com.manage.OEMS.service.BookingServiceImplTest
+testCheckActiveBookings  Time elapsed: 0.046 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: expected: <1> but was: <0>
+	at com.manage.OEMS.service.BookingServiceImplTest.testCheckActiveBookings(BookingServiceImplTest.java:241)
+
+testGetUpcomingBookedDates  Time elapsed: 0.018 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: expected: <[2021-07-01, 2021-07-02]> but was: <[]>
+	at com.manage.OEMS.service.BookingServiceImplTest.testGetUpcomingBookedDates(BookingServiceImplTest.java:115)
+
+testGetBookingDetailByOrganizerId  Time elapsed: 0.175 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: expected: <[BookingDetail [venueId=1, memberId=14, bookingId=9, date=2021-07-01, guestCount=14, eventName=Party, equipmentName= Shooting Music, foodItemName= Rice, eventCost=10000, equipmentCost=12500, foodItemCost=700, totalCost=23200, paymentStatus=Processed, firstName=Saurabh, lastName=Tiwari, phoneNumber=9999999999, email=user@gmail.com, venueName=Jagruti, venuePlace=Pune, venueContact=9864654654]]> but was: <[]>
+	at com.manage.OEMS.service.BookingServiceImplTest.testGetBookingDetailByOrganizerId(BookingServiceImplTest.java:94)
+

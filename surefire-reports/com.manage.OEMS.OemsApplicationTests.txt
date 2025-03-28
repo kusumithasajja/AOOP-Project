@@ -1,0 +1,10 @@
+-------------------------------------------------------------------------------
+Test set: com.manage.OEMS.OemsApplicationTests
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 20.888 s <<< FAILURE! - in com.manage.OEMS.OemsApplicationTests
+contextLoads  Time elapsed: 0.026 s  <<< ERROR!
+java.lang.IllegalStateException: Failed to load ApplicationContext
+Caused by: java.lang.IllegalStateException: Failed to execute CommandLineRunner
+Caused by: org.springframework.jdbc.CannotGetJdbcConnectionException: Failed to obtain JDBC Connection; nested exception is java.sql.SQLException: Access denied for user 'root '@'localhost' (using password: YES)
+Caused by: java.sql.SQLException: Access denied for user 'root '@'localhost' (using password: YES)
+

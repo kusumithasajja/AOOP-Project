@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: com.manage.OEMS.controller.BookingControllerTest
+-------------------------------------------------------------------------------
+Tests run: 11, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 25.203 s - in com.manage.OEMS.controller.BookingControllerTest
